@@ -1,7 +1,7 @@
-🧾 🎯 **Project Title:** **CUSTOM AI MEDICAL DIAGNOSIS - FULL-STACK**  
-📅 **Project Timeline:** October 2023 - August 2024  
-🎥 YouTube Demo: <https://youtu.be/_0w1zhbn-rc>  
-📦 GitHub Source Code: <https://github.com/IvanSicaja/2023.07.31_GitHub_Custom-AI-Medical-diagnosis---Full-stack>
+**🧾 🎯 Project Title: MOVIE RECOMMENDATION WEB APP  
+📅 Project Timeline:** August 2023 – October 2023  
+🎥 YouTube Demo: [https://youtu.be/YgA_rae6ojw](https://youtu.be/YgA_rae6ojw?utm_source=chatgpt.com)  
+📦 GitHub Source Code: [https://github.com/IvanSicaja/2023.08.01_GitHub_Movie-Recommendation-Web-App](https://github.com/IvanSicaja/2023.08.01_GitHub_Movie-Recommendation-Web-App?utm_source=chatgpt.com)
 
 \----------------------------------------------------------------------------------------------------------------
 
@@ -17,26 +17,24 @@
 
 ### 💡 App Purpose
 
-The **Custom AI Medical Diagnosis App** offers a **user-friendly interface** for uploading **medical images** such as **CT, MRI, X-ray, PET, and Mammography scans**, depending on the **training dataset**. Focused on **brain cancer, skin cancer, and lung pneumonia diagnoses**, the app employs a **Convolutional Neural Network (CNN)** powered by **TensorFlow** and **Python**. After analysis, the **chatbot** provides a **text-based diagnosis** with corresponding **probability**, along with **medical advice**. Enhancing **user experience**, a friendly **doctor AI created avatar** interacts with users. Relevant **data** is saved in a **SQL database dynamically**. The app is designed with **Flask, Jinja2, Bootstrap, and JavaScript**, containerized with **Docker**, orchestrated with **Kubernetes**, and can be hosted on **AWS EKS** or any other platform which supports **Kubernetes**.
+The purpose is to build a **recommendation app** that applies **content-based similarity search** in this case **movie similarity search.**
 
 ### 🧠 How It Works
 
-PROJECT HIGHLIGHTS:
+From the **movie database** which consists of columns like **movie description, title, genre, vote rating**, the company has created a **subset** of the most important columns in the dataset.  
+From the dataset subset the **bag of words** is created with the usage of the **scikit-learn Python module**. Every relevant word is **tokenized** and **lemmatized**. **Nonrelevant words** (e.g. „the“ etc..) and **stop characters** are excluded from the bag of words. As the final dataset a **.csv** and **.pkl file** are created. Every row of the **.csv file** is represented by the **vector** of the **word tokens** for every **movie summary subset**.
 
-- **Data collection and preprocessing:** Since no access to the **official medical database**, a **custom database** should be created. Developed **Python script** that unifies the **width and the height of all images** in the database and unifies the **number of the image dimensions** (**number of the color channels, transparency, etc.**) to the **grayscale image**. Also developed the **Python script** which converts all **images** in a **.csv database** with **Pandas** where every row represents the **image instance normalized pixel value** together with the corresponding **class label**.
-- **Build, train, and evaluate the neural network model:** **TensorFlow** was used to create a **convolutional neural network** from scratch, **train** and **save the CNN model**. A **validation accuracy score** was used for the **model validation**.
-- **Building the web page frontend UI:** Because the idea of this project is to build a **full stack deployed app**, it was needed to develop the **entire web page**. **HTML, CSS, and Bootstrap framework** was used for the **frontend development**.
-- **Building the web page backend:** As a **backend Python framework**, **Flask** is used. It allows us to get the **uploaded medical images** from the front end (**CT, MRI, X-ray, PET**). The **image** is converted with **Python backend function** to the corresponding **array form**, which was used for the **model training** with **TensorFlow and Keras**, and sent to the trained **convolutional neural network model** for **analysis**. The **result** that we got from the **neural network** is encoded to the corresponding **class** and sent back to the frontend like the **diagnosis text result** with corresponding **probability** to the **user** with the usage of **Jinja2**.
-- **Deployment:** The **entire app** is **containerized** with the usage of **Docker Desktop** and the app's **Docker image** is uploaded to the **Docker Hub platform**. For the **deployment** is used **Google Kubernetes container orchestration tool**. The app is deployed locally with **Minikube** and tested for **performance**. The **domain** is bought on the **Namecheap platform** and the app can be deployed on any platform which supports **Kubernetes** such as: **Amazon Elastic Kubernetes Service (AWS->EKS), Microsoft Azure Kubernetes Service (AKS), Google Kubernetes Engine (GKE)**, etc.
+As the **recommendation function** uses the **cosine similarity principle** which makes the calculation efficient even if it is difficult to visualize the **1000+ dimensional vector space**, the math works. After the **most similar movies** from the selected movie info are forwarded to the **frontend** with corresponding **movie posters**.  
+**Python** is used for the **frontend** and for the **backend**. The application uses **cosine similarity** on **tokenized and lemmatized movie descriptions** to recommend **five similar movies**. It retrieves **movie posters dynamically** via the **The Movie Database (TMDB) API**, and the **Streamlit frontend** provides a simple **dropdown** for movie selection and displays **recommendations** with **posters in columns**.
 
 ### ⚠️ Note
 
-This concept is for **local use only**, and significantly **improved training data** is essential for **real-world applications**.
+The project is based on a **subset** of the **original dataset** and demonstrates the **functionality** of a **recommendation system**. **Real-world applications** would require **larger datasets** and **optimization** for **scalability**.
 
 ### 🔧 Tech Stack
 
-**Python, Convolutional neural network, Open CV – Computer vision, SQL, Pandas, Tensorflow, Keras, Scikit-learn, Git, GitHub, Docker Desktop, Docker Hub, Kubernetes, Minikube, Namecheap, HTML, CSS, Bootstrap, Javascript, Flask, Jinja2, Linux, AI Image generation tools as Adobe Firefly and Playground.com**
+**Python, Natural Language Processing (NLP), Pandas, scikit-learn, Streamlit, Requests, Pickle, Linux, API usage**
 
 ### 📣 Hashtags Section
 
-**\# #CustomAI #MedicalDiagnosis #FullStackApp #Python #CNN #ConvolutionalNeuralNetwork #TensorFlow #Keras #OpenCV #ComputerVision #SQL #Pandas #Flask #Jinja2 #Bootstrap #JavaScript #HTML #CSS #Docker #DockerHub #Kubernetes #Minikube #AWS #AWS_EKS #AzureAKS #GKE #MedicalImaging #BrainCancer #SkinCancer #LungPneumonia #AIAvatar #Chatbot #DeepLearning #MachineLearning #DataPreprocessing #ImageProcessing #HealthcareAI #AIInHealthcare #TechStack #Deployment #Linux #AIImageGeneration #AdobeFirefly #PlaygroundAI #Git #GitHub #FullStackDevelopment**
+**\# #MovieRecommendation #Python #Streamlit #NLP #MachineLearning #CosineSimilarity #Pandas #ScikitLearn #MovieApp #RecommendationSystem #DataScience #AI #Frontend #Backend #APIs #TMDB #GitHub #FullStackDevelopment #Linux #ArtificialIntelligence #MLProject**

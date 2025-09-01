@@ -38,7 +38,10 @@ The project is based on a **subset** of the **original dataset** and demonstrate
 ### 📸 Project Snapshot
 
 <p align="center">
-  <img src="https://github.com/IvanSicaja/2023.08.01_GitHub_Movie-Recommendation-Web-App/raw/main/0.1_GitHub/1.0_Description_4_media_key_messages_%26_captions/2.0_Thumbnail_1.png" alt="App Preview" width="700">
+  <img src="https://github.com/IvanSicaja/2023.08.01_GitHub_Movie-Recommendation-Web-App/raw/main/0.1_GitHub/1.0_Description_4_media_key_messages_%26_captions/2.0_Thumbnail_1.png" 
+       alt="App Preview" 
+       width="1280" 
+       height="720">
 </p>
 
 ---
@@ -47,12 +50,14 @@ The project is based on a **subset** of the **original dataset** and demonstrate
 
 <p align="center">
   <a href="https://youtu.be/YgA_rae6ojw">
-    <img src="https://img.youtube.com/vi/YgA_rae6ojw/0.jpg" alt="Watch the demo" width="560">
+    <img src="https://img.youtube.com/vi/YgA_rae6ojw/0.jpg" 
+         alt="Watch the demo" 
+         width="1280" 
+         height="720">
   </a>
 </p>
 
 ---
-
 
 ### 📣 Hashtags Section
 

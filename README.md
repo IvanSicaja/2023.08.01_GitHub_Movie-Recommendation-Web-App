@@ -41,7 +41,7 @@ The project is based on a **subset** of the **original dataset** and demonstrate
 
 **&lt;p align="center"&gt;**
 
-**<img src="0.1_GitHub/1.0_Description_4_media_key_messages_&\_captions/2.0_Thumbnail_1.png”**
+**<img src="<https://github.com/IvanSicaja/2023.08.01_GitHub_Movie-Recommendation-Web-App/raw/main/0.1_GitHub/1.0_Description_4_media_key_messages_%26_captions/2.0_Thumbnail_1.png”>**
 
 **alt="App Preview" width="700">**
 

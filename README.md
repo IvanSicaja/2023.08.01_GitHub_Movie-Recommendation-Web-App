@@ -2,14 +2,14 @@
 📅 Project Timeline:** August 2023 – October 2023  
 🎥 YouTube Demo: [https://youtu.be/YgA_rae6ojw](https://youtu.be/YgA_rae6ojw?utm_source=chatgpt.com)  
 📦 GitHub Source Code: [https://github.com/IvanSicaja/2023.08.01_GitHub_Movie-Recommendation-Web-App](https://github.com/IvanSicaja/2023.08.01_GitHub_Movie-Recommendation-Web-App?utm_source=chatgpt.com)  
-\---
+\----------------------------------------------------------------------------------------------------------------
 
 🏷️ My Personal Profiles: ⬇︎  
 🎥 Video Portfolio: To be added  
 📦 GitHub Profile: <https://github.com/IvanSicaja>  
 🔗 LinkedIn: <https://www.linkedin.com/in/ivan-si%C4%8Daja-832682222>  
 🎥 YouTube: <https://www.youtube.com/@ivan_sicaja>  
-\---
+\----------------------------------------------------------------------------------------------------------------
 
 ### 📚🔍 Project description: ⬇︎⬇︎⬇︎
 
@@ -33,13 +33,26 @@ The project is based on a **subset** of the **original dataset** and demonstrate
 
 **Python, Natural Language Processing (NLP), Pandas, scikit-learn, Streamlit, Requests, Pickle, Linux, API usage**
 
+---
+
 ### 📸 Project Snapshot
 
-Not available.
+<p align="center">
+  <img src="https://github.com/IvanSicaja/2023.08.01_GitHub_Movie-Recommendation-Web-App/raw/main/0.1_GitHub/1.0_Description_4_media_key_messages_%26_captions/2.0_Thumbnail_1.png" alt="App Preview" width="700">
+</p>
+
+---
 
 ### 🎥 Video Demonstration
 
-Not available.
+<p align="center">
+  <a href="https://youtu.be/YgA_rae6ojw">
+    <img src="https://img.youtube.com/vi/YgA_rae6ojw/0.jpg" alt="Watch the demo" width="560">
+  </a>
+</p>
+
+---
+
 
 ### 📣 Hashtags Section
 

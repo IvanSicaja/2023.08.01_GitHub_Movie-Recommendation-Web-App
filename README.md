@@ -35,21 +35,21 @@ The project is based on a **subset** of the **original dataset** and demonstrate
 
 **Python, Natural Language Processing (NLP), Pandas, scikit-learn, Streamlit, Requests, Pickle, Linux, API usage**
 
-### 📸 Project Preview
-A snapshot showcasing the **application interface**:
+**\### 📸 Project Preview**
 
-<p align="center">
-  <img src="https://github.com/IvanSicaja/2023.08.01_GitHub_Movie-Recommendation-Web-App/raw/main/0.1_GitHub/1.0_Description_4_media_key_messages_%26_captions/2.0_Thumbnail_1.png" alt="App Preview" width="700">
-</p>
+**A snapshot showcasing the \*\*application interface\*\*:**
 
----
+**&lt;p align="center"&gt;**
 
-### 🎥 Project Demo
-Here’s a visual preview of the **Movie Recommendation Web App** in action:  
+**&lt;img src="<https://github.com/IvanSicaja/2023.08.01_GitHub_Movie-Recommendation-Web-App/raw/main/0.1_GitHub/1.0_Description_4_media_key_messages_%26_captions/2.0_Thumbnail_1.png>" alt="App Preview" width="700"&gt;**
 
-[![Watch the demo](https://img.youtube.com/vi/YgA_rae6ojw/0.jpg)](https://youtu.be/YgA_rae6ojw)
+**&lt;/p&gt;**
 
----
+**\### 🎥 Project Demo**
+
+**Here’s a visual preview of the \*\*Movie Recommendation Web App\*\* in action:**
+
+**\[!\[Watch the demo\](<https://img.youtube.com/vi/YgA_rae6ojw/0.jpg)\>](<https://youtu.be/YgA_rae6ojw>)**
 
 ### 📣 Hashtags Section
 

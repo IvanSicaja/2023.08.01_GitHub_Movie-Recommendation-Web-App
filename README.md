@@ -32,13 +32,14 @@ The project is based on a **subset** of the **original dataset** and demonstrate
 ### 🔧 Tech Stack
 
 **Python, Natural Language Processing (NLP), Pandas, scikit-learn, Streamlit, Requests, Pickle, Linux, API usage**
+
 ---
 
 ### 📸 Project Snapshot
 
 <p align="center">
-  <img src="https://github.com/IvanSicaja/2023.08.01_GitHub_Movie-Recommendation-Web-App/raw/main/0.1_GitHub/1.0_Description_4_media_key_messages_%26_captions/2.0_Thumbnail_1.png" 
-       alt="App Preview" 
+  <img src="https://github.com/IvanSicaja/2023.08.01_GitHub_Movie-Recommendation-Web-App/blob/main/publish/2.0_Thumbnail_1.png?raw=true" 
+       alt="Movie Recommendation Web App Preview" 
        width="640" 
        height="360">
 </p>
@@ -52,10 +53,11 @@ The project is based on a **subset** of the **original dataset** and demonstrate
     <img src="https://img.youtube.com/vi/YgA_rae6ojw/0.jpg" 
          alt="Watch the demo" 
          width="640" 
-         height="360">
+         height="1000">
 
 
 ---
+
 
 ### 📣 Hashtags Section
 
